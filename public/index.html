@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Cyberpunk Finances Visualization</h1>
+  <canvas id="financeChart"></canvas>
+  <form id="inputForm">
+    <!-- Existing month input fields -->
+    <label for="january">January:</label>
+    <input type="number" class="month-input" id="january" name="january" value="1200"><br>
+    <!-- Add other months here -->
+
+    <!-- Updated "Add Month" button -->
+    <button type="button" id="addMonth" class="add-month-button">Add Month</button>
+
+    <input type="submit" value="Submit">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #80C7E5; /* Light Blue */
+  }
+  
+  h1 {
+    color: #3E9692; /* Teal */
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+  }
+  
+  canvas {
+    background-color: #0D0208; /* Dark Purple */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  form {
+    background-color: #000;
+    border: 2px solid #FFD700; /* Gold */
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #80C7E5; /* Light Blue */
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #80C7E5; /* Light Blue */
+    background-color: #0D0208; /* Dark Purple */
+    color: #80C7E5; /* Light Blue */
+    border-radius: 4px;
+  }
+  
+  button.add-month-button {
+    background-color: #FFD700; /* Gold */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+  }
+  
+  button.add-month-button:hover {
+    background-color: #FFD700; /* Gold */
+  }
+  input[type="submit"] {
+    background-color: #FFD700; /* Gold */
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #DAA520; /* Darker Gold */
+  }
+  
+  /* Style for new month inputs */
+  .month-input {
+    margin-top: 10px;
+  }
+  
